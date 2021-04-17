@@ -16,6 +16,6 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: chakilams3/github-jenkins-kubernetes:${BUILD_NUMBER}
+      - image: avengers123/github-jenkins-kubernetes:${BUILD_NUMBER}
         imagePullPolicy: Always
         name: myweb
